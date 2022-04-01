@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Math game test</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+
+</head>
+   
+    <body>
+        <h1 style="text-align: center; margin-top: 2%;  color: white;">hello and welcome to my Maths  games website</h1>
+         <div class="list">
+             <ul>
+                <li data-text="Sun"><a href="html/levele.html">Addition</a> </li> 
+                <li data-text="mercury"><a href="html/levels.html">multiplay</a></li> 
+                <li data-text="venus"><a href="html/level.html">subtract</a></li> 
+             </ul>
+        
+         </div>
+
+    <footer class="text-center text-lg-start text-white"  >
+            <div style="text-align: center;" class="col-lg-10 col-md-5 mb-1 mb-md-0">
+              <h5 >About me =></h5>
+              <p class="para-1">
+                hello and welcome to my first project website 
+                using html css react.js i hope you enjoy this
+                small game idea.
+                <br> So my named is Ahmed Gloulou,  iam junior Front-end devolpeur
+                 <br> i want to show some of my skills on this siteweb , i have a lot of idea i wanna share with you !
+              </p>
+            </div>
+        <hr class="mb-4" /><hr class="mb-5" />
+        <section class="mb-6 text-center">
+          <a class="btn"href="https://www.facebook.com/ahmed.gloulou.5895/"><i class="fab fa-facebook-f"></i></a>
+  
+          <a class="btn"href="https://twitter.com/AhmedLi67790852" ><i class="fab fa-twitter"></i></a>
+          <a class="btn" href="https://mail.google.com/mail/u/0/#inbox" ><i class="fab fa-google"></i></a>
+          <a class="btn" href="https://www.instagram.com/ahmed_.gloulou/?hl=fr"><i class="fab fa-instagram"></i></a>
+          <a class="btn"href="https://www.linkedin.com/in/ahmed-live-409701232/"><i class="fab fa-linkedin-in"></i></a>
+        </section>
+        <div class="lastcon">
+        <div class="text-center" style="background-color: rgb(14, 14, 14); text-align: center; width: max-content; color: white;">
+        © 2022 Ahmed Gloulou. All Rights Reserved 
+    </div></div>
+      </footer>
+    
+    <style>
+    *{
+        padding: 0%;
+        margin: 0%;
+    }
+    .para-1{
+        font-size: 17px;
+        font-weight: bold;
+        color: white;
+    }
+    .lastcon{
+        display: flex;
+        justify-content: center;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+
+    }
+    .btn{
+        padding: 0em 1.5em;
+        font-size: 26px;
+        color: white;
+    }
+    .col-lg-10{
+        margin-bottom: 23px;
+    }
+    h5{
+        font-size: 30px;
+         color: rgba(0, 0, 139, 0.884);
+    }
+   
+    .mb-5{
+        margin-top: 1em;
+        margin-bottom: 0.5em;
+
+    }
+    .text-center{
+        padding: 0.7 2em;
+    }
+    .mb-6{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 0px;
+    }
+    body{
+        background: black;
+        font-family: system-ui;
+    }
+     .list{
+        display: flex;
+         height: 65vh;
+         background: url(st.png);
+         flex-direction: column;
+         margin-top: 5%;
+
+     }
+     ul{
+        text-align: center;
+    }
+        ul li{
+            list-style: none;
+            margin: 50px 0 0 0;
+        }
+        ul:hover li a{
+            opacity:0 ;
+    
+        }
+    
+        ul li a {
+            text-decoration: none;
+            font-size: 40px;
+            color: white;
+            font-weight: 500;
+            letter-spacing: 2px;
+            background: rgba(0, 0, 139, 0.884);
+            padding: 6px 15px;
+            border-radius: 20px;
+            display: inline-block;
+            width: max-content;
+            transition: 0.4s;
+            text-transform: uppercase;
+            position: relative;
+            z-index: 10;
+    
+    
+        }
+        ul li a:hover {
+            transform: scale(1.5);
+            background-color: blueviolet;
+            opacity: 1;
+    
+        }
+      
+        ul li:hover::after{
+            opacity: 0.5;
+            letter-spacing: 5px;
+    
+    
+        }
+       
+        ul li:hover::before{
+            opacity: 0.5;
+            width: 80px;
+        }
+        footer{
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background: black;
+            background: url(st.png);
+        }
+        h1{
+            font-size: 50px;
+        }
+        @media screen and (max-width: 500px){
+            body{
+              background-color: #000000;  
+            }
+            footer{
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-size: 12px;
+        }
+        .lastcon{
+        display: flex;
+        justify-content: center;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+
+    }
+    .btn{
+        padding: 0em 0.6em;
+        font-size: 22px;
+    }
+    .col-lg-10{
+        margin-bottom: 10px;
+    }
+    .mb-5{
+        margin-top: 0.7em;
+        margin-bottom: 0.2em;
+    }
+    .mb-6{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 0px;
+    }
+    .para-1{
+        font-size: 15px;
+        line-height: 16px;
+        color: white;
+        font-weight: 700;
+        padding: 0 35px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .list{
+        display: flex;
+         max-height: 65vh;
+         background: url(st.png);
+         flex-direction: column;
+         margin-top: 5%;
+
+     }
+     ul{
+        text-align: center;
+    }
+        ul li{
+            list-style: none;
+            margin: 30px 0 0 0;
+        }
+        ul:hover li a{
+            opacity:0 ;
+    
+        }
+    
+        ul li a {
+            text-decoration: none;
+            font-size: 32px;
+            color: white;
+            font-weight: 700;
+            letter-spacing: 1px;
+            background: rgba(0, 0, 139, 0.884);
+            padding: 4px 15px;
+            border-radius: 20px;
+            display: inline-block;
+            width: max-content;
+            transition: 0.4s;
+            text-transform: uppercase;
+            position: relative;
+            z-index: 10;
+    
+    
+        }
+        h1{
+            font-size: 35px;
+            line-height: 30px;
+            padding: 0.3em 1em;
+        }
+        h5{
+            font-size: 22px;
+        }
+
+        }
+    
+    
+    </style>  
+    </body>
+    </html>
+</body>
+</html>
